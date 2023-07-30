@@ -6,15 +6,32 @@
   background-color: rgb(61, 140, 146);
 }
 
+.bg-pattern {
+  position: fixed;
+  width: 100vw;
+}
+
+.bg-pattern-top {
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -70%);
+}
+
+.bg-pattern-bottom {
+  right: 0;
+  bottom: 0;
+  transform: translate(30%, 70%);
+}
+
 .main-container {
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
-  }
-  
+  z-index: 10;
+}
+
 .main-container-top {
   height: 130px;
-  background-color: rgb(106, 192, 198);
 }
 
 .metrics-container {
@@ -76,15 +93,15 @@
 }
 
 .logo {
-    display: block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: rgb(191, 186, 186);
-    border: 5px solid white;
-    margin-top: -55px;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(191, 186, 186);
+  border: 5px solid white;
+  margin-top: -55px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .profile-picture {

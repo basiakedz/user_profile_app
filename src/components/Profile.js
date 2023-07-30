@@ -1,17 +1,31 @@
-import { Details } from './Details'
-import { Logo } from './Logo'
-import { Metrics } from './Metrics'
-
+import { Details } from "./Details";
+import { Logo } from "./Logo";
+import { Metrics } from "./Metrics";
 
 export const Profile = () => {
-    return (
-        <article className='centered'>
-        <div className="main-container">
-            <div className='main-container-top'/>
-            <Logo />
-            <Details />
-            <Metrics />
+  return (
+    <div className="centered">
+      <img
+        src="/bg-pattern-top.svg"
+        alt="Pattern-top"
+        className="bg-pattern bg-pattern-top"
+      />
+      <img
+        src="/bg-pattern-bottom.svg"
+        alt="Pattern-bottom"
+        className="bg-pattern bg-pattern-bottom"
+      />
+      <div className="main-container">
+        <div />
+        <img
+          className="main-container-top"
+          src="/bg-pattern-card.svg"
+          alt="Pattern card"
+        />
+        <Logo />
+        <Details />
+        <Metrics />
+      </div>
     </div>
-    </article>
-    );
+  );
 };
