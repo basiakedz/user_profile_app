@@ -1,6 +1,7 @@
 export const Logo = () => {
-    return (
+  return (
     <div className="logo">
+      <img className="profile-picture" src="/image-victor.jpg" alt="Profile Picture"></img>
     </div>
-    );
+  );
 };
