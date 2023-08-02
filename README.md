@@ -1,4 +1,6 @@
-# Profile card component 😉
+# Profile card component
+
+![Screenshot of App](/public/screenshot-of-app.png)
 
 ## Getting Started with Create React App
 
