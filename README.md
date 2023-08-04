@@ -1,5 +1,9 @@
 # Profile card component
 
+### Link
+
+- Live preview: [https://user-profile-app-basiakedz.netlify.app/](https://user-profile-app-basiakedz.netlify.app/)
+
 ![Screenshot of App](/public/screenshot-of-app.png)
 
 ## Getting Started with Create React App
